@@ -15,3 +15,7 @@ Edit the project collection and page copy in `src/main.js`, and the design in `s
 The `docs/` folder contains the production site built for `/rafiq/`. In repository Settings → Pages, choose **Deploy from a branch**, branch **main**, and folder **/docs**, then save. GitHub will publish the site at `https://rafiqqifar.github.io/rafiq/` after deployment succeeds.
 
 After editing the site, run `npm run build -- --base=/rafiq/ --outDir docs`, ensure `docs/.nojekyll` exists, and commit and push the updated source and docs.
+
+## Protected hosting
+
+The live portfolio is now hosted at https://rafspace-private.rafiqqifar.chatgpt.site with a server-side password gate. The docs directory contains only a redirect. Do not rebuild the portfolio into docs: that would expose the content through GitHub Pages again. Make this repository private in GitHub settings to protect source and history.
